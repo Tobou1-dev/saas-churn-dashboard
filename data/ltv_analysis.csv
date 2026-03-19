@@ -1,0 +1,4 @@
+tier,monthly_price,churn_rate_pct,avg_lifetime_months,ltv,ltv_to_price_ratio
+Enterprise,499,2.5,40.0,19960.0,40.0
+Growth,149,7.13,14.0,2090.76,14.0
+Starter,49,9.57,10.5,512.24,10.5
