@@ -1,8 +1,6 @@
 # SaaS Revenue & Churn Analytics Dashboard
 
-A full-stack analytics project simulating 24 months of SaaS business performance, 
-built to surface the revenue and retention insights that determine whether a SaaS 
-business is genuinely growing or quietly declining.
+A Revenue Intelligence System That Exposes Hidden Churn and False Growth in SaaS Businesses
 
 ## Live Dashboard
 
@@ -10,13 +8,14 @@ business is genuinely growing or quietly declining.
 
 ## Project Overview
 
-Most SaaS businesses track total MRR. Few track where that MRR is actually 
-coming from — and more importantly, where it is quietly leaking out.
+Most SaaS businesses track total MRR and assume growth equals health.MRR is a net number,
+It hides churn. Few track where that MRR is actually 
+coming from and more importantly, where it is quietly leaking out.
 
 This project builds a complete revenue intelligence system across five analytical 
 layers, answering the questions a SaaS CFO or Head of Revenue actually needs answered:
 
-- Is this business growing or just replacing churned customers with new ones?
+-Is this business growing or just replacing lost customers fast enough to look like it is?
 - Which customer cohorts retain best — and when do they start leaving?
 - What is each customer tier actually worth over their lifetime?
 - Under what conditions does Net Revenue Retention fall below 100%?
@@ -75,7 +74,9 @@ saas-churn-dashboard/
 ## Dataset
 
 This project uses synthetic data simulating a SaaS business with three 
-pricing tiers across 24 months. The simulation includes:
+pricing tiers across 24 months, The dataset was engineered to simulate failure, not just growth.
+
+The simulation includes:
 
 - **1,449 customers** across Starter ($49), Growth ($149), and Enterprise ($499) tiers
 - **Realistic seasonality** in monthly signup patterns
